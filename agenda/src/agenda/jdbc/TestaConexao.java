@@ -8,7 +8,7 @@ public class TestaConexao {
 	public static void main(String[] args) throws SQLException {
 		// TODO Auto-generated method stub
 		Connection	connection	=	new	ConnectionFactory().getConnection();
-		System.out.println("Conexão	aberta com sucesso!");
+		System.out.println("Conexão	aberta e com sucesso!");
 		connection.close();
 	}
 }
