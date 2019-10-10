@@ -16,7 +16,7 @@
 	<div class="container">
 		<c:import url="cabecalho.jsp" />
 		Primeira lógica feita para MVC, ideia semelhante ao index	
-		Selecione uma das opções abaixo: </br>
+		Selecione uma das opções abaixo: <br>
 		<a href="index.jsp"><button class="btn btn-primary">Voltar Index</button></a>
 		<a href="adiciona-contato.jsp"><button class="btn btn-primary">Adicionar Novo Contato</button></a>
 		<a href="listar-contatos.jsp"><button class="btn btn-primary">Listar contatos</button></a>
