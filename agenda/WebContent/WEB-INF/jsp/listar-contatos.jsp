@@ -13,7 +13,6 @@
 </head>
 <body>
 	<!--	cria	o	DAO	-->
-	<jsp:useBean id="dao" class="agenda.jdbc.dao.ContatoDao" />
 	<div class="container">
 		<c:import url="cabecalho.jsp" />
 		<table	class="table table-condensed table-striped table-bordered table-hover">
@@ -23,7 +22,7 @@
 			<th>Data de Nascimento</th>
 			<th>Ação</th>
 			<!--	percorre	contatos	montando	as	linhas	da	tabela	-->
-			<c:forEach var="contato" items="${dao.lista}">
+			<c:forEach	var="contato"	items="${contatos}">
 				<tr>
 					<td>${contato.nome}</td>
 					<td>

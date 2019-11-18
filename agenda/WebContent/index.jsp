@@ -15,7 +15,7 @@
 		<c:import url="cabecalho.jsp" />
 		<h2>Opções de utilização</h2><br>
 		<a href="adiciona-contato.jsp"><button class="btn btn-primary">Adicionar Contato</button></a> <br> <br>
-		<a href="listar-contatos.jsp"><button class="btn btn-primary">Listar contatos</button></a> <br>
+		<a href="mvc?logica=ListaContatosLogic"><button class="btn btn-primary">Listar contatos</button></a> <br>
 		<br>
 		<c:import url="rodape.jsp" />
 	</div>

@@ -19,7 +19,7 @@
 		Selecione uma das opções abaixo: <br>
 		<a href="index.jsp"><button class="btn btn-primary">Voltar Index</button></a>
 		<a href="adiciona-contato.jsp"><button class="btn btn-primary">Adicionar Novo Contato</button></a>
-		<a href="listar-contatos.jsp"><button class="btn btn-primary">Listar contatos</button></a>
+		<a href="mvc?logica=ListaContatosLogic"><button class="btn btn-primary">Listar contatos</button></a>
 		<c:import url="rodape.jsp" />
 	</div>
 </body>
